@@ -1,0 +1,15 @@
+{
+  "name": "verify-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "pdf-lib": "^1.17.1"
+  }
+}
