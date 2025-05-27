@@ -4,7 +4,6 @@
 >
 > * Hashar endast de **visuella strömmarna på första sidan**
 > * Validerar Merkle‑beviset & återskapar roten
-> * Fungerar även om PDF‑filen har fått extra sidor eller blivit omsparad i t.ex. macOS Förhandsvisning
 
 ---
 
@@ -63,6 +62,12 @@
    </details>
 
 Om både **fil‑hashen** och **roten** stämmer har dokumentet inte förändrats sedan Modux signerade batchen via Bank‑ID.
+
+> ⚠️ **OBS!** Det här verktyget antar att första sidans PDF-objekt är
+> byte-identiska med originalet. Om du har öppnat och *sparat om* filen i
+> t.ex. Förhandsvisning eller Adobe Acrobat kan hashvärdet ändras även om
+> sidan *ser* likadan ut. Verifiera därför alltid originalet du laddade ned
+> från Modux – eller be oss om en ny kopia.
 
 ---
 
